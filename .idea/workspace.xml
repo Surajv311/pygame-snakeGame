@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd574957-c5c9-430d-8292-20cabd808ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pygameGAME.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygameGAME.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

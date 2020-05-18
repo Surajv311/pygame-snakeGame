@@ -17,10 +17,4 @@ pygame.display.flip()
 while True:
 
     # print("Snake game")
-    for event in pygame.event.get(): #event function in pygame
-        print(event)
-        if event.type==QUIT:
-            pygame.quit()
-            sys.exit()
-    pygame.display.update()
-
+ 

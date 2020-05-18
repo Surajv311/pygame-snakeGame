@@ -6,7 +6,7 @@ red = [250,0,0] # a list of values for rgb values
 pygame.init()
 
 # set up the size of the window
-window = pygame.display.set_mode((1000,600))
+display_window = pygame.display.set_mode((1000,600))
 pygame.display.set_caption('SNAKE GAME')
 # setting up the drawing surface
 screen = pygame.display.get_surface()
@@ -15,5 +15,12 @@ pygame.display.set_caption("game")
 pygame.display.flip()
 
 while True:
-    print("Snake game")
-    pass
+
+    # print("Snake game")
+    for event in pygame.event.get(): #event function in pygame
+        print(event)
+        if event.type==QUIT:
+            pygame.quit()
+            sys.exit()
+    pygame.display.update()
+

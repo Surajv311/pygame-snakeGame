@@ -6,7 +6,7 @@ red = [250,0,0] # a list of values for rgb values
 pygame.init()
 
 # set up the size of the window
-display_window = pygame.display.set_mode((1000,600))
+display_window = pygame.display.set_mode((450,450))
 pygame.display.set_caption('SNAKE GAME')
 # setting up the drawing surface
 screen = pygame.display.get_surface()

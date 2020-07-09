@@ -4,6 +4,8 @@ Before cloning the project ensure pygame is installed:<br>
 ```pip install pygame```<br>
 To run the game:<br>
 In terminal (in the same directory) :<br>
-```python snakePygame.py``` <br>
+```python snakePygame.py``` 
+<br>
+
 ![img](https://github.com/Surajv311/pygame-Game/blob/master/images/img.jpg)<br>
 ![img2](https://github.com/Surajv311/pygame-Game/blob/master/images/img2.jpg)
